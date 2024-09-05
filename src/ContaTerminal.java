@@ -4,13 +4,13 @@ public class ContaTerminal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Por favor, digite o número da Conta:");
+        System.out.println("Por favor, digite o número da conta:");
         int numero = scanner.nextInt();
 
-        System.out.println("Por favor, digite o número da Agência:");
-        String agencia = scanner.nextLine();
-
         scanner.nextLine();
+
+        System.out.println("Por favor, digite o número da agência:");
+        String agencia = scanner.nextLine();
 
         System.out.println("Por favor, digite o nome do cliente:");
         String nomeCliente = scanner.nextLine();
